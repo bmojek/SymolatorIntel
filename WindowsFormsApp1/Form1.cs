@@ -67,6 +67,14 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            label11.Text = $"{GetRandomHexNumber(2)}";
+            label14.Text = $"{GetRandomHexNumber(2)}";
+            label18.Text = $"{GetRandomHexNumber(2)}";
+            label16.Text = $"{GetRandomHexNumber(2)}";
+            label26.Text = $"{GetRandomHexNumber(2)}";
+            label24.Text = $"{GetRandomHexNumber(2)}";
+            label22.Text = $"{GetRandomHexNumber(2)}";
+            label20.Text = $"{GetRandomHexNumber(2)}";
         }
 
         private static Random random = new Random();
@@ -156,42 +164,42 @@ namespace WindowsFormsApp1
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedIndex == 0)
+            if (comboBox2.SelectedIndex == 0)
             {
                 b = label11.Text;
             }
 
-            if (comboBox1.SelectedIndex == 1)
+            if (comboBox2.SelectedIndex == 1)
             {
                 b = label14.Text;
             }
 
-            if (comboBox1.SelectedIndex == 2)
+            if (comboBox2.SelectedIndex == 2)
             {
                 b = label18.Text;
             }
 
-            if (comboBox1.SelectedIndex == 3)
+            if (comboBox2.SelectedIndex == 3)
             {
                 b = label16.Text;
             }
 
-            if (comboBox1.SelectedIndex == 4)
+            if (comboBox2.SelectedIndex == 4)
             {
                 b = label26.Text;
             }
 
-            if (comboBox1.SelectedIndex == 5)
+            if (comboBox2.SelectedIndex == 5)
             {
                 b = label24.Text;
             }
 
-            if (comboBox1.SelectedIndex == 6)
+            if (comboBox2.SelectedIndex == 6)
             {
                 b = label22.Text;
             }
 
-            if (comboBox1.SelectedIndex == 7)
+            if (comboBox2.SelectedIndex == 7)
             {
                 b = label20.Text;
             }
@@ -231,9 +239,10 @@ namespace WindowsFormsApp1
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedIndex == comboBox2.SelectedIndex)
+            if (comboBox1.SelectedIndex == comboBox2.SelectedIndex || comboBox1.SelectedIndex == -1 || comboBox2.SelectedIndex == -1)
             {
                 MessageBox.Show("Podaj inny rejestr");
+                return;
             }
 
             if (comboBox2.SelectedIndex == 0)
@@ -275,10 +284,17 @@ namespace WindowsFormsApp1
             {
                 label20.Text = a;
             }
+            comboBox1.SelectedIndex = -1;
+            comboBox2.SelectedIndex = -1;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+            if (comboBox1.SelectedIndex == -1 || comboBox2.SelectedIndex == -1)
+            {
+                MessageBox.Show("Podaj inny rejestr");
+                return;
+            }
             if (comboBox2.SelectedIndex == 0)
             {
                 label11.Text = a;
@@ -358,14 +374,51 @@ namespace WindowsFormsApp1
             {
                 label20.Text = b;
             }
+            comboBox1.SelectedIndex = -1;
+            comboBox2.SelectedIndex = -1;
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-        }
+            if (comboBox1.SelectedIndex == 0)
+            {
+                label11.Text = (int.Parse(label11.Text, System.Globalization.NumberStyles.HexNumber) + 1).ToString("X");
+            }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
+            if (comboBox1.SelectedIndex == 1)
+            {
+                label14.Text = (int.Parse(label14.Text, System.Globalization.NumberStyles.HexNumber) + 1).ToString("X");
+            }
+
+            if (comboBox1.SelectedIndex == 2)
+            {
+                label18.Text = (int.Parse(label18.Text, System.Globalization.NumberStyles.HexNumber) + 1).ToString("X");
+            }
+
+            if (comboBox1.SelectedIndex == 3)
+            {
+                label16.Text = (int.Parse(label16.Text, System.Globalization.NumberStyles.HexNumber) + 1).ToString("X");
+            }
+
+            if (comboBox1.SelectedIndex == 4)
+            {
+                label26.Text = (int.Parse(label26.Text, System.Globalization.NumberStyles.HexNumber) + 1).ToString("X");
+            }
+
+            if (comboBox1.SelectedIndex == 5)
+            {
+                label24.Text = (int.Parse(label24.Text, System.Globalization.NumberStyles.HexNumber) + 1).ToString("X");
+            }
+
+            if (comboBox1.SelectedIndex == 6)
+            {
+                label22.Text = (int.Parse(label22.Text, System.Globalization.NumberStyles.HexNumber) + 1).ToString("X");
+            }
+
+            if (comboBox1.SelectedIndex == 7)
+            {
+                label20.Text = (int.Parse(label20.Text, System.Globalization.NumberStyles.HexNumber) + 1).ToString("X");
+            }
         }
     }
 }

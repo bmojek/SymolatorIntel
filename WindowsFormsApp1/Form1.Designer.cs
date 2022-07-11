@@ -280,6 +280,7 @@ namespace WindowsFormsApp1
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label11.Location = new System.Drawing.Point(719, 53);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(18, 20);
@@ -313,6 +314,7 @@ namespace WindowsFormsApp1
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label14.Location = new System.Drawing.Point(719, 81);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(18, 20);
@@ -334,6 +336,7 @@ namespace WindowsFormsApp1
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label16.Location = new System.Drawing.Point(719, 135);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(18, 20);
@@ -355,6 +358,7 @@ namespace WindowsFormsApp1
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label18.Location = new System.Drawing.Point(719, 107);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(18, 20);
@@ -375,6 +379,7 @@ namespace WindowsFormsApp1
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label20.Location = new System.Drawing.Point(719, 244);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(18, 20);
@@ -395,6 +400,7 @@ namespace WindowsFormsApp1
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label22.Location = new System.Drawing.Point(719, 216);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(18, 20);
@@ -415,6 +421,7 @@ namespace WindowsFormsApp1
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label24.Location = new System.Drawing.Point(719, 190);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(18, 20);
@@ -436,6 +443,7 @@ namespace WindowsFormsApp1
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label26.Location = new System.Drawing.Point(719, 162);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(18, 20);
